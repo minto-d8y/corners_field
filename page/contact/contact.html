@@ -1,0 +1,122 @@
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS読み込みファイル -->
+    <link rel="stylesheet" href="../../css/styles.css">
+
+    <title>Corner's Field 陶友花</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-var">
+          <div class="container">
+              <nav class="navbar navbar-expand-sm navbar-light">
+                  <a href="#" class="navbar-brand">Menu</a>
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div id="menu" class="collapse navbar-collapse">
+                      <ul class="navbar-nav" id="nav">
+                         <li class="nav-item ml-2"><a href="index.html" class="nav-link"><span class="en">HOME</span><span class="jp">ホーム</span></a></li> 
+                         <li class="nav-item ml-2"><a href="../about/about.html" class="nav-link"><span class="en">ABOUT</span><span class="jp">こだわり</span></a></li> 
+                         <li class="nav-item ml-2"><a href="../product/product.html" class="nav-link"><span class="en">PRODUCT</span><span class="jp">商品紹介</span></a></li> 
+                         <li class="nav-item ml-2"><a href="../news/news.html" class="nav-link"><span class="en">NEWS</span><span class="jp">お知らせ</span></a></li>  
+                         <li class="nav-item ml-2"><a href="#" class="nav-link"><span class="en">CONTACT</span><span class="jp">お問い合わせ</span></a></li> 
+                         <li class="nav-item ml-2"><a href="../../index.html#access" class="nav-link"><span class="en">ACCESS</span><span class="jp">アクセス</span></a></li> 
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+        </div>
+        </header>
+        <main>
+          <section class="contact-page">
+            <div class="contact_title bg07 pt-5">
+              <h2>CONTACT</h2>
+              <h3 class="pl-2">お問い合わせ</h3>
+            </div>
+            <div class="contact_text my-5">
+              <p>ご質問やご相談など募集しております。<br>お問い合わせはメール、もしくはお電話で承ります。<br>メールでのお問い合わせは以下のフォームをご利用ください。
+                <br>お電話でのお問い合わせは、045-226-5375（受付時間／平日11:00〜18:00【定休日：月曜日】）までお願いします。
+                <br>個人の方から企業の方までお気軽にお問い合わせください。<br></p>
+            </div>
+
+            <div class="contact_form mb-5 mx-auto">
+              <form action="contact.php" method="POST">
+                <table class="form-table">
+                  <tr class="py-5">
+                    <th><label for="item0">お名前（必須）</label></th>
+                    <td><input type="text" id="item0" name="your_name" placeholder="例）山田 太郎" required></td>
+                  </tr>
+                  <tr class="py-5">
+                    <th><label for="item2">フリガナ（必須）</label></th>
+                    <td><input type="text" id="item2" name="your_furigana" placeholder="例）ヤマダ タロウ" required></td>
+                  </tr>
+                  <tr>
+                    <th><label for="item01">Email（必須）</label></th>
+                    <td><input type="email" id="item01" name="your_email" placeholder="例）xxx@xxx.com" required></td>
+                  </tr>
+                  <tr>
+                    <th><label for="item05">企業名（任意）</label></th>
+                    <td><input type="text" id="item05" name="country" placeholder="株式会社◯◯"></td>
+                  </tr>
+                  <tr>
+                    <th><label for="item06">お問い合わせ項目（必須）</label></th>
+                    <td>
+                      <select id="item06" name="select-contents" cols="20">
+                        <option>選択してください</option>
+                        <option value="商品サービス">商品やサービスに関して</option>
+                        <option value="企業様お取引">企業様お取引に関して</option>
+                        <option value="商品購入">商品購入に関して</option>
+                        <option value="その他">その他</option>
+                      </select>
+                    </td> 
+                  </tr>
+                  <tr>
+                    <th class="pt-3"><label for="item04">お問い合わせ内容（必須）</label></th>
+                    <td><textarea id="item04" name="your_content" placeholder="お問い合わせ内容を記入してください"maxlength="2000"></textarea></td>
+                  </tr>
+                </table>
+
+                <div class="kakunin text-center mt-5">
+                    <input type="submit" value="閉じる" class="text-center py-1 px-2">
+                    <input type="submit" value="入力内容を確認" class="bg-primary text-center py-1 px-2">
+                </div>
+              </form>
+            </div>
+          </section>
+        </main>
+          <footer>
+              <p>CORNER'S FIELD 陶友花</p>
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $jQuery(function($){
+        
+
+      })
+    </script>
+  </body>
+</html>

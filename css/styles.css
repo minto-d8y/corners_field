@@ -1,0 +1,634 @@
+html, body, div, span, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      abbr, address, cite, code,
+      del, dfn, em, img, ins, kbd, q, samp,
+      small, strong, sub, sup, var,
+      b, i,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section, summary,
+      time, mark, audio, video {
+          margin:0;
+          padding:0;
+          border:0;
+          outline:0;
+          font-size:100%;
+          vertical-align:baseline;
+          background:transparent;
+          font-family: 
+          "ヒラギノ明朝 ProN W3", HiraMinProN-W3, YuMincho, 游明朝, "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+
+.bg-slider {
+    width: 100%;
+    height: 80vh;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    object-fit: cover;
+    flex-direction:column-reverse;
+}
+.bg-slider__title{
+    color: #fff;
+    font-size: 33px;
+    /* line-height: 1.5; */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    padding:0 0 30px 50px;
+}
+
+.menu-var{
+    background:#F3EDE6; 
+}
+
+#nav li a span.en {
+    display: inline;
+}
+#nav li a:hover span.en {
+    display: none;
+}
+#nav li a span.jp {
+    display: none;
+}
+#nav li a:hover span.jp {
+    display: inline;
+}
+
+.charm-para{
+    margin:40px auto;
+    width:55%;
+}
+
+.charm-para h2{
+    font-size:36px;
+    padding-bottom: 10px;
+}
+
+.charm-para p{
+    font-size:18px;
+}
+
+.fixed-bg{
+    min-height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.bg01{
+    background-image: url(../image/about_back.jpeg);
+    opacity:0.7;
+    width:100%;
+}
+
+/* home-product */
+.bg02{
+    background-image:url(../image/top4_back.jpg);
+    opacity:0.7;
+    width:100%;
+}
+
+.about .box,
+.product .box{
+    padding-top:100px;
+}
+
+.about .btn-detail,
+.product .btn-detail{
+    display:block;
+    margin:0 auto;
+    font-size:26px;
+}
+
+
+/*  home-other*/
+.other-content{
+    background:#F3EDE6;
+}
+.other-content h2{
+    font-size:24px;
+    font-weight:bold;
+    padding-bottom:18px;
+}
+
+.other-content table{
+    border-collapse:collapse;
+    width:100%;
+}
+.other-content td{
+   border-bottom:solid 1px #333;
+   border-top:solid 1px #333;
+   padding:16px 20px;
+   font-size:14px;
+   color:#999999;
+}
+
+.other-content table td a{
+    color:#333;
+}
+.other-content button{
+    display:block;
+    margin-left:auto;
+    margin-top:20px;
+}
+.contact h2{
+    border-bottom:solid 1px ;
+}
+#access{
+    padding-bottom:20px;
+}
+.access h2{
+    font-size:24px;
+    font-weight:bold;
+}
+.access img{
+    width:100%;
+    margin-top:47px;
+}
+
+.ggmap {
+    position: relative;
+    padding-bottom: 85%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top:20px;
+    }
+     
+    .ggmap iframe,
+    .ggmap object,
+    .ggmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+#access table{
+    border-collapse:collapse;
+    width:100%;
+    margin-top:40px;
+}
+#access td{
+    border-bottom:solid 1px #333;
+    padding:16px 20px;
+    font-size:14px;
+    color:#999999;
+    border-top:none;
+}
+#access table td a{
+    color:#333;
+}
+
+
+/* aboutページ */
+.about-page{
+    color:rgba(0,0,0,0.5);
+}
+
+.bg-09{
+    background-image:url(../image/about_back.jpeg);
+    width:100%;
+    min-height:60vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color:white;
+    padding-left:70px;
+}
+.about-top h2{
+    font-size:54px;
+}
+.about-top h3{
+    font-size:27px;
+}
+
+
+.about_1,
+.about_2,
+.about_3{
+    display:flex;
+    
+}
+.about-title{
+    width:50%
+}
+
+.about-box{
+    width:80%;
+    margin:0 auto;
+}
+.about-box h3{
+    border-bottom:1px solid ;
+    font-size:44px;
+    font-weight:bold;
+    padding:50px 0 5px;
+    /* color:#466BB0; */
+}
+.about-box p{
+    text-align:center;
+    font-size:16px;
+    padding:30px 0; 
+}
+
+.about_1,
+.about_3{
+    background:#F3EDE6;
+}
+
+.bg03{
+    background-image:url(../image/about_1.jpeg);
+    opacity:0.8;
+    width:50%;
+    min-height:45vh;
+}
+.bg04{
+    background-image:url(../image/about_2.jpeg);
+    opacity:0.8;
+    width:50%;
+    min-height:45vh;
+}
+.bg05{
+    background-image:url(../image/about_3.jpeg);
+    opacity:0.8;
+    width:50%;
+    min-height:45vh;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .about_1,
+    .about_2,
+    .about_3{
+        display:block
+    }
+    .bg03,.bg04,.bg05{
+        width:100%;
+    }
+    .about-title{
+        width:100%;
+    }
+}
+.btn-box {
+    display:inline-block;
+    margin:0 auto;
+}
+
+
+/* productページ */
+.fade_in{
+    opacity:0;
+    transform: translateY(20px);
+    transition: all 2s;
+}
+
+.bg06{
+    background-image:url(../image/top4_back.jpg);
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    object-fit: cover;
+    min-height: 60vh;
+    opacity:0.6;
+    color:white;
+    padding-left:70px;
+}
+
+.product-title h2{
+    font-size:54px;
+}
+.product-title h3{
+    font-size:27px;
+}
+
+.catch-03{
+    text-align: right;
+}
+
+@media screen and (max-width:767px){
+    .catch-copy p{
+        text-align:center;
+        font-size:40px;
+    }
+}
+
+.product-para{
+    margin:20px auto;
+    font-size:20px;
+    width:60%;
+}
+.product-container .watouki img{
+    height:320px;
+}
+
+.product-container .shikki img,
+.product-container .favorite img
+{
+    height:260px;
+}
+
+/* .product-head{
+    width:95%;
+    margin:0 auto;
+}
+.shikki{
+    width:95%;
+    margin:0 auto;
+} */
+
+/* 画像全体のスタイリングhover→activeまで */
+.product-container img{
+    width:100%;
+    object-fit: cover;
+    opacity:0.8;
+    transition-duration: 0.7s;
+    margin:10px auto 0;
+}
+
+.product-container img:hover{
+    opacity:1;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform:translateY(-10px);
+    transition-duration: 0.7s;
+}
+
+.product-container img:active{
+    transform:translateY(7px);
+    -webkit-transform: translateY(4px);
+}
+
+.product-container p{
+    text-align: center;
+}
+.product-head, .shikki  {
+    background:#F3EDE6;
+}
+
+
+/* contactページ */
+
+.bg07{
+    background-image:url(../image/contact_background.jpeg);
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    object-fit:cover;
+    height:300px;
+    color:white;
+    padding-left:70px;
+}
+.contact_title h2{
+    font-size:54px;
+}
+.contact_title h3{
+    font-size:27px;
+}
+
+.contact_text{
+    text-align: center;
+}
+
+.contact_form{
+   width:80%;
+}
+ 
+.contact_form table {
+  border-collapse: collapse;
+}
+ 
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+ 
+select{
+    cursor: pointer;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  background: #f8f8f8;
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 70%;
+  transition: 0.8s;
+  border-radius: 0;  
+}
+ 
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background: #e9f5fb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+textarea[name="your_content"] {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  vertical-align:top; 
+}
+ 
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+ 
+::-webkit-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.form-table {
+    width: 100%;
+  }
+   
+  .form-table th,
+  .form-table td {
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    padding: 20px;
+  }
+   
+  .form-table th {
+    background: #ffecea;
+    padding-left: 50px;
+    position: relative;
+    text-align: left;
+    width: 300px;
+  }
+
+  @media screen and (max-width:767px){
+    .form-table th,
+    .form-table td {
+      display: block;
+      width: 100%;
+      border-bottom: none;
+    }
+    input[type="text"],
+    input[type="email"],
+    select{
+        width:100%;
+    }
+  } 
+
+/* newsページ */
+
+.bg08{
+    background-image:url(../image/news_no-color.jpeg);
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    object-fit:cover;
+    height:300px;
+    color:white;
+    padding-left:70px;
+    opacity:0.8;
+}
+
+.news-title h2{
+    font-size:54px;
+}
+.news-title h3{
+    font-size:27px;
+}
+
+
+.news-box{
+    width:80%;
+    margin:0 auto;
+}
+
+.news-box table{
+    border-collapse:collapse;
+    width:100%;
+}
+.news-box td{
+   border-bottom:solid 1px #333;
+   border-top:solid 1px #333;
+   padding:16px 20px;
+   font-size:14px;
+   color:#999999;
+}
+
+
+
+
+/* product_watouki_一覧 */
+
+.pro-watouki img,
+.pro-shikki img,
+.pro-favorite img
+{
+    width:100%;
+    max-height:45vh;
+    object-fit: cover;   
+}
+.pro-watouki-para,
+.pro-shikki-para,
+.pro-favorite-para
+{
+    background:#F3EDE6;
+}
+
+
+
+/* btn類 */
+.top-btn {
+    text-align: center;
+}
+
+.top-btn a{
+    border:solid 1px transparent;
+    border-radius: 10%;
+    padding:22px 16px;  
+    background:#3f598f;
+    color:white;
+    opacity:0.8;
+    transition-duration: 0.7s;
+    margin:10px auto 0;
+}
+.top-btn a:hover{
+    opacity:1;
+    text-decoration:none;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform:translateY(-10px);
+    transition-duration: 0.7s;
+}
+.top-btn a:active{
+    transform:translateY(7px);
+    -webkit-transform: translateY(4px); 
+}
+
+.kakunin input, 
+.news-next input{
+    border:solid 1px transparent;
+    border-radius: 10%;
+    padding:22px 16px;  
+    background:#3f598f;
+    color:white;
+    opacity:0.8;
+    transition-duration: 0.7s;
+    margin:10px auto 0;
+
+}
+
+
+
+/* footer */
+
+footer{
+    color:rgba(0,0,0,0.5);
+    background:#F3EDE6;
+    text-align:center;
+    font-size:14px;
+    line-height:70px;
+    /* background-image:url(../image/footer_back.jpeg); */
+    background-size:cover;
+    width:100%;
+    height:70px;
+}
+
+/* product_shikki_一覧 */
+
+
+/* 外枠を無くしたい時 */
+/* .container-box img{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+} 
+@media screen and (min-width:767px){
+    .container-box{
+        display:flex;
+    }
+} */
