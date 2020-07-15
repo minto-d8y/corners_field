@@ -123,6 +123,10 @@ html, body, div, span, object, iframe,
     .product h2{
         font-size:40px;
     }
+    .about p,
+    .product p{
+        font-size:14px;
+    }
 }
 
 /*  home-other*/
