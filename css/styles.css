@@ -75,6 +75,11 @@ html, body, div, span, object, iframe,
     padding:40px 0;
     width:55%;
 }
+@media screen and (max-width:767px){
+    .charm-para{
+        width:75%;
+    }
+}
 
 .charm-para h2{
     font-size:36px;
