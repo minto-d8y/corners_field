@@ -66,8 +66,13 @@ html, body, div, span, object, iframe,
     display: inline;
 }
 
+.charm{
+    background:#F3EDE6;
+}
+
 .charm-para{
-    margin:40px auto;
+    margin:0 auto;
+    padding:40px 0;
     width:55%;
 }
 
