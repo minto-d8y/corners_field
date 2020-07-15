@@ -82,7 +82,8 @@ html, body, div, span, object, iframe,
 }
 
 .charm-para p{
-    font-size:18px;
+    font-size:16px;
+    line-height:2em
 }
 
 .fixed-bg{
