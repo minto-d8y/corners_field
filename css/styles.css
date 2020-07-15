@@ -112,11 +112,11 @@ html, body, div, span, object, iframe,
     padding-top:60px;
 }
 
-.about .btn-detail,
-.product .btn-detail{
+.about .top-btn,
+.product .top-btn{
     display:block;
     margin:0 auto;
-    font-size:26px;
+    font-size:16px;
 }
 @media screen and (max-width:767px){
     .about h2,
@@ -595,6 +595,16 @@ textarea::placeholder {
     transition-duration: 0.7s;
     margin:10px auto 0;
 }
+@media screen and (max-width:767px){
+    .about .top-btn,
+    .product .top-btn{
+        font-size:14px;
+    }
+    .top-btn a{
+        padding:16px 10px;
+    }
+}
+
 .top-btn a:hover{
     opacity:1;
     text-decoration:none;
