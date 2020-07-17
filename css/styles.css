@@ -219,6 +219,9 @@ html, body, div, span, object, iframe,
 .about-page{
     color:rgba(0,0,0,0.5);
 }
+.about-para h2{
+    font-size:56px;
+}
 
 .bg-09{
     background-image:url(../image/about_back.jpeg);
@@ -303,6 +306,12 @@ html, body, div, span, object, iframe,
     }
     .about-title{
         width:100%;
+    }
+    .about-para h2{
+        font-size:42px;
+    }
+    .about-box h3{
+        font-size:30px;
     }
 }
 .btn-box {
